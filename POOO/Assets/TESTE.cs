@@ -10,7 +10,7 @@ public class teste : MonoBehaviour
         fusca.AtribuirCor("Verde");
         fusca.AtribuirNumero_de_rodas(4);
         fusca.AtribuirPreco(2050.90f);
-        Debug.Log(" 0 " + fusca.NomeDoCarro() + " é " + fusca.CorDoCarro() + "tem" + fusca.Numero_de_rodas() +" e custa R$" + fusca.Preco());
+        Debug.Log(" 0 " + fusca.NomeDoCarro() + " é " + fusca.CorDoCarro() +  "tem"  + fusca.Numero_de_rodas() +" e custa R$" + fusca.Preco());
 
 
         gol. AtribuirNome("Fusca de marie");
