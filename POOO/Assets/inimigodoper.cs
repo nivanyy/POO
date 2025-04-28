@@ -1,13 +1,13 @@
 using UnityEngine;
 
-public class inimigodoper : MonoBehaviour
+public class inimigodoper : personagem
 {
 
     private string armadura;
     private string arma;
 
 
-    public void AtribuirArmaura()
+    public void AtribuirArmadura(string armadura)
     {
         this.armadura = armadura;
     }
@@ -15,12 +15,12 @@ public class inimigodoper : MonoBehaviour
     
     public string Armadura()
     {
-        return armadura;
+        return  this.armadura;
     }
     
     
     
-    public void AtribuirArma()
+    public void AtribuirArma(string arma)
     {
         this.arma = arma;
     }
@@ -38,35 +38,19 @@ public class inimigodoper : MonoBehaviour
 
         switch (arma)
         {
-            case "ESPADA"
+            case "ESPADA":
                 dano = Forca_Ataque() + 10;
                 break;
-            
-            casr "MACHADO";
+
+            case "MACHADO":
                 dano = Forca_Ataque() + 18;
                 break;
+            
+            case "ADAGA":
+                dano = Forca_Ataque() + 5;
+                break;
         }
-    }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        return dano;
     }
 }

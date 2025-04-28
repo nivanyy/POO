@@ -47,7 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\personagem.cs" />
-    <Compile Include="Assets\inimigo do per.cs" />
+    <Compile Include="Assets\inimigodoper.cs" />
     <Compile Include="Assets\TESTE.cs" />
     <Compile Include="Assets\caminhao.cs" />
     <Compile Include="Assets\CARRO.cs" />
