@@ -85,17 +85,22 @@ public class teste : MonoBehaviour
      ork.AtribuirVelocidade(6);
      ork.AtribuirNumero_de_pes(2);
      ork.AtribuirNumero_de_maos(4);
-
+     ork.AtribuirArma(inimigodoper.ArmaDoInimigo.MACHADO);
+     ork.AtribuirArmadura(inimigodoper.ArmaduraDoInimigo.COURO);
 
      if (joao.Energia() > ork.Forca_Ataque())
      {
          Debug.Log("o joao sobreviveu ao ataque do ork" + joao.getNome());
      }
-     
 
+     else
+     {
+         Debug.Log("0" + joao.getNome() +  "aonde tem" + joao.Energia() + "energia");
+     }
+     
     }
     
-
+    
     
     
 

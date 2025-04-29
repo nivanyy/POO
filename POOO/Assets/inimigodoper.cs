@@ -2,55 +2,69 @@ using UnityEngine;
 
 public class inimigodoper : personagem
 {
+    
+    
+    public enum ArmaDoInimigo
+    {
+        ESPADA, MACHADO, ADAGA 
+    }
+    
+    public enum ArmaduraDoInimigo
+    {
+        MADEIRA, COURO, BRONZE, AÇO
+    }
+    
+    
+    [ SerializeField ]
+    private ArmaduraDoInimigo armadura;
+    [ SerializeField ]
+    private ArmaDoInimigo arma;
+    private int dano;
 
-    private string armadura;
-    private string arma;
-
-
-    public void AtribuirArmadura(string armadura)
+    public void AtribuirArmadura(ArmaduraDoInimigo armadura)
     {
         this.armadura = armadura;
     }
     
-    
-    public string Armadura()
+    public ArmaduraDoInimigo Armadura()
     {
-        return  this.armadura;
+        return armadura;
     }
     
-    
-    
-    public void AtribuirArma(string arma)
+    public void AtribuirArma(ArmaDoInimigo arma)
     {
         this.arma = arma;
     }
     
-    
-    public string Arma()
+    public ArmaDoInimigo Arma()
     {
         return arma;
     }
 
-
-    public int DanoDoInimigo()
+    public void DanoDoInimigo()
     {
         int dano = 0;
 
         switch (arma)
+        
+        
         {
-            case "ESPADA":
+            case ArmaDoInimigo.ESPADA:
                 dano = Forca_Ataque() + 10;
                 break;
-
-            case "MACHADO":
-                dano = Forca_Ataque() + 18;
+            case ArmaDoInimigo.MACHADO:
+                dano = dano = Forca_Ataque() + 18;
                 break;
-            
-            case "ADAGA":
+            case ArmaDoInimigo.ADAGA:
                 dano = Forca_Ataque() + 5;
                 break;
         }
 
-        return dano;
+
     }
+    
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    
+    // Update is called once per frame
+   
 }

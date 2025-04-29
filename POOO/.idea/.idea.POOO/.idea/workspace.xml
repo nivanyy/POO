@@ -13,6 +13,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -92,13 +93,15 @@
       <workItem from="1744726391492" duration="297000" />
       <workItem from="1744727192182" duration="1685000" />
       <workItem from="1745329785188" duration="4046000" />
-      <workItem from="1745841905954" duration="3944000" />
+      <workItem from="1745841905954" duration="4204000" />
+      <workItem from="1745933917866" duration="4503000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityProjectDiscoverer">
     <option name="hasUnityReference" value="true" />
