@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class personagem : MonoBehaviour
+public class Personagem : MonoBehaviour
 {
     [SerializeField]string nome;
     [SerializeField]private int energia;

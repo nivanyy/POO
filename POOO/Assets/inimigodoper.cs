@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class inimigodoper : personagem
+public class inimigodoper : Personagem
 {
     
     
@@ -41,7 +41,7 @@ public class inimigodoper : personagem
         return arma;
     }
 
-    public void DanoDoInimigo()
+    public int DanoDoInimigo()
     {
         int dano = 0;
 
@@ -60,6 +60,7 @@ public class inimigodoper : personagem
                 break;
         }
 
+        return dano;
 
     }
     

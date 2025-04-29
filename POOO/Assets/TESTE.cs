@@ -7,7 +7,7 @@ public class teste : MonoBehaviour
     carro gol = new carro();
     
     caminhao caminhao = new caminhao();
-    private personagem joao = new personagem();
+    private Personagem joao = new Personagem();
     inimigodoper ork = new  inimigodoper();
     
     void Start()
