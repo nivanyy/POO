@@ -26,6 +26,7 @@ public class Movimentodoinimigo : MonoBehaviour
 
         {
             transform.LookAt(_player.transform.position);
+            transform.position = Vector3.MoveTowards(transform.position, _player.transform.position, velocidade * Time.deltaTime);
         }
     }
 }
