@@ -271,6 +271,7 @@ GameObject:
   - component: {fileID: 957125917}
   - component: {fileID: 957125916}
   - component: {fileID: 957125922}
+  - component: {fileID: 957125923}
   m_Layer: 0
   m_Name: personagem
   m_TagString: Untagged
@@ -427,7 +428,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe53f57b3ce0e5540810fe91e49b7948, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidade: 10
+--- !u!114 &957125923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 957125915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e42eaa9f9b471d46a438e1dc58b0ef1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1130767697
 GameObject:
   m_ObjectHideFlags: 0
@@ -440,11 +452,12 @@ GameObject:
   - component: {fileID: 1130767701}
   - component: {fileID: 1130767700}
   - component: {fileID: 1130767699}
+  - component: {fileID: 1130767704}
   - component: {fileID: 1130767698}
   - component: {fileID: 1130767703}
   m_Layer: 0
   m_Name: inimigo
-  m_TagString: Untagged
+  m_TagString: Inimigo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -584,8 +597,21 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 50
+  m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1130767704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1130767697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9801bd88d932234dae4c7fed0bc7846, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  realDivisao: 3
 --- !u!1 &1769826108
 GameObject:
   m_ObjectHideFlags: 0

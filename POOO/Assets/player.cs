@@ -4,10 +4,12 @@ public class player : MonoBehaviour
 {
     private Rigidbody _rigdibody;
 
-    public float velocidade = 10;
+    private float velocidade = 10;
+    
 
     void Start()
     {
+        velocidade = gameObject.GetComponent<Personagem>().Velocidade();
         _rigdibody = GetComponent<Rigidbody>();
     }
     
@@ -27,6 +29,9 @@ public class player : MonoBehaviour
         //direita
 
         if (Input.GetKey(KeyCode.A))
+            
+            
+            
         {
             posicao.x = transform.position.x - velocidade * Time.deltaTime;
         }

@@ -53,8 +53,11 @@ public class Personagem : MonoBehaviour
          this.velocidade = velocidade;
     }
 
-    public float Velocidade()
+public float Velocidade()
+ 
+
     {
+        
         return this.velocidade;
     }
 

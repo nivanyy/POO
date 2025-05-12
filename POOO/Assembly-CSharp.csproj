@@ -53,6 +53,7 @@
     <Compile Include="Assets\TESTE.cs" />
     <Compile Include="Assets\caminhao.cs" />
     <Compile Include="Assets\CARRO.cs" />
+    <Compile Include="Assets\Movimentodoinimigo.cs" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity 6000.0.42f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
