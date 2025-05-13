@@ -611,7 +611,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9801bd88d932234dae4c7fed0bc7846, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  realDivisao: 3
+  raioDeVisao: 3
 --- !u!1 &1769826108
 GameObject:
   m_ObjectHideFlags: 0
