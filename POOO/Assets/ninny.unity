@@ -372,6 +372,8 @@ GameObject:
   - component: {fileID: 957125916}
   - component: {fileID: 957125922}
   - component: {fileID: 957125923}
+  - component: {fileID: 957125924}
+  - component: {fileID: 957125925}
   m_Layer: 0
   m_Name: personagem
   m_TagString: Player
@@ -541,6 +543,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e42eaa9f9b471d46a438e1dc58b0ef1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &957125924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 957125915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85b4df2c7b41cbc4cb0095be3ebd683a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  andando: 0
+--- !u!114 &957125925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 957125915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c8b88b6849178440bd7a1e635febb52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 579810484}
+  velocidadeDaAnimacao: 1
 --- !u!1 &1130767697
 GameObject:
   m_ObjectHideFlags: 0

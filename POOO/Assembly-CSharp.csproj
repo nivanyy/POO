@@ -53,7 +53,9 @@
     <Compile Include="Assets\TESTE.cs" />
     <Compile Include="Assets\caminhao.cs" />
     <Compile Include="Assets\ataque.cs" />
+    <Compile Include="Assets\Movimentodopersonagem.cs" />
     <Compile Include="Assets\CARRO.cs" />
+    <Compile Include="Assets\PlayerManager.cs" />
     <Compile Include="Assets\Movimentodoinimigo.cs" />
     <None Include="Assets\character\KayKit_Adventurers_1.0_FREE\KayKit_Adventurers_1.0_FREE\License.txt" />
     <None Include="Assets\character\KayKit_Skeletons_1.0_FREE\KayKit_Skeletons_1.0_FREE\License.txt" />
